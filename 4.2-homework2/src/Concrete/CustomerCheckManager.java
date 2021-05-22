@@ -2,6 +2,7 @@ package Concrete;
 
 import Abstract.CustomerCheckService;
 import Entities.Customer;
+import MernisService.LKKKPSPublicSoap;
 
 public class CustomerCheckManager implements CustomerCheckService {
 
