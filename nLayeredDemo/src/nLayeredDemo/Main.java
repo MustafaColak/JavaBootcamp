@@ -13,7 +13,7 @@ public class Main {
        //ProductService  productService = new ProductManager(new HibernateProductDao());
         ProductService  productService = new ProductManager(new AbcProductDao(), new jLoggerManagerAdapter());
 
-        Product product = new Product(1,1,"Elma",12,50);
+        Product product = new Product(1,2,"Elma",12,50);
 
         productService.add(product);
     }
